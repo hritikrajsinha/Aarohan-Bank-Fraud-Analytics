@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Databricks
+dbc_project_context/
+*.state
+
+# Data files (large)
+*.csv
+*.parquet
+*.delta/
+*.db
+
+# Secrets and credentials
+*.env
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
